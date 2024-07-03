@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #292929;
+    color: aquamarine;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#logo {
+    width: 120px;
+    height: 120px;
+}
+
+.cabecalho {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#menusuperior ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menusuperior li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#menusuperior {
+    text-align: right;
+    margin-top: 8%;
+}
+
+a {
+    color: aquamarine;
+}
+
+.produto{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#promessa{
+    margin-top: 20px;
+    text-align: left;
+}
+
+
