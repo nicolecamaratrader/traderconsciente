@@ -51,17 +51,19 @@ a {
 }
 
 #promessa{
-    margin-top: 40px;
+    margin-top: 25px;
     text-align: left;
     padding-left: 5%;
-    padding-top: 15%;
     line-height: 1.5;   
 }
 
 #coveronphone {
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 20%;
     margin-left: 15%;
     border-radius: 5%;
-    box-shadow: 0 0 30px rgba(0, 255, 13, 1)
+    box-shadow: 0 0 60px rgba(0, 255, 13, 1); 
 }
 
 #pageonphone {
