@@ -1,4 +1,8 @@
-var openebook=window.document.getElementById("coveronphone")
-function openebook (){
-    coveronphone.src="pageonphone.png"
+
+function openebook () {
+    document.getElementById("coveronphone").src="./imagens.png/pageonphone.png";
+}
+
+function closeebook () {
+    document.getElementById("coveronphone").src="./imagens.png/coveronphone.png";
 }
