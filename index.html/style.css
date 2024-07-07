@@ -13,11 +13,10 @@ body {
 #logo {
     width: 120px;
     height: 120px;
+    padding-left: 5%;
 }
 
-#imglogo {
-    border-radius: 45%;
-}
+#imglogo {}
 
 .cabecalho {
     display: grid;
@@ -52,7 +51,7 @@ a {
 }
 
 #promessa{
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
     padding-left: 5%;
     padding-top: 15%;
@@ -60,7 +59,8 @@ a {
 }
 
 #coveronphone {
-    border-radius: 50%;
+    margin-left: 15%;
+    border-radius: 5%;
     box-shadow: 0 0 30px rgba(0, 255, 13, 1)
 }
 
