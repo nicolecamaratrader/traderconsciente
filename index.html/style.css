@@ -70,3 +70,37 @@ a {
     display: none;
     visibility: hidden;
 }
+
+#formulario {
+    display: auto ;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: azure;
+    margin: 15px;
+    border: rgb(0, 255, 13);
+    border-radius: 5%;
+    padding-left: 10px;
+}
+
+button {
+    background-color: rgb(0, 255, 13);
+    color: #292929;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff9900;
+    color: #ffffff ;
+    transform: translateY(8px);
+    box-shadow: 0px 15px 20px #292929;
+    transition-duration: 0.5s;
+}
+
