@@ -1,14 +1,13 @@
 *{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #292929;
     }
 
-body {
-    margin-left: 5%;
-    margin-right: 5%;
+    body {
     color: rgb(0, 255, 13);
+    background-color: #292929;
 }
+      
 
 #logo {
     width: 120px;
@@ -16,18 +15,21 @@ body {
     padding-left: 5%;
 }
 
-#imglogo {}
-
 .cabecalho {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
     color: rgb(0, 255, 13);
+    background-color: #292929;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #menusuperior ul {
     list-style-type: none;
     margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 0;
     color: rgb(0, 255, 13);
 }
@@ -58,26 +60,35 @@ a {
     line-height: 1.3; 
     display: flexbox;
     flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #coveronphone {
-    width: 90%;
+    width: 78%;
     margin: 5%;
     margin-bottom: 20%;
     margin-left: 5%;
+    margin-right: 5%;
     border-radius: 5%;
     box-shadow: 10px 15px 20px rgba(0, 255, 13, 1); 
     display: grid;
     grid-template-columns: auto;
+
 }
 
 #pageonphone {
     display: none;
     visibility: hidden;
+    margin-left: 5%;
+    margin-right: 15%;
 }
 
 #form {
     margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 input {
@@ -85,7 +96,7 @@ input {
     height: 30px;
     background-color: azure;
     margin: 5px;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 15px;
     border: rgb(0, 255, 13);
     border-radius: 15px 15px;
@@ -107,6 +118,8 @@ button {
 #motivos{
     color: #ff9900;
     margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 button:hover {
@@ -115,6 +128,8 @@ button:hover {
     transform: translateY(8px);
     box-shadow: 0px 15px 20px #292929;
     transition-duration: 0.5s;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #sabermais {
@@ -147,7 +162,18 @@ button:hover #sabermais {
     text-align: center;
 }
 
+#afiliados {
+    background-color: blue;
+    color: #ff9900;
+    text-align: center;
+    margin: 0 0 0 0 ;
+}
 
+
+#textofinal {
+    color: #ffffff;
+    padding-top: 20px;
+}
 
 @media (max-width: 768px) {
    
