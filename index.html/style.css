@@ -162,8 +162,19 @@ button:hover #sabermais {
     text-align: center;
 }
 
+.sobreaautora {
+    background-color: #98fc71;
+    color: #292929;
+    text-align: center;
+    margin: 0 0 0 0 ;
+    padding: 5%;
+    grid-template-columns: 50% auto;
+    display: grid;
+    }
+
+
 #afiliados {
-    background-color: blue;
+    background-color: rgb(0, 0, 61);
     color: #ff9900;
     text-align: center;
     margin: 0 0 0 0 ;
