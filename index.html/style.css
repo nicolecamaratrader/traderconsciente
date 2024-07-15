@@ -55,7 +55,6 @@ a {
 
 .apresentacao{
     margin-top: 25px;
-    text-align: auto;
     padding-left: 5%;
     line-height: 1.3; 
     display: flexbox;
@@ -116,11 +115,33 @@ button {
 }
 
 .parte2 {
-    background-color: #98fc71;
-    color: #292929;
+    background-color: #292929;
+    color: #ffffff;
     text-align: center;
-    margin: 0 0 0 0 ;
-    padding: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 15px;
+}
+
+h3 {
+    color: #ff9900;
+}
+
+.motivos {
+    text-align: left;
+    font-style: italic;
+}
+
+#mockupestudandoimg {
+    width: 90%;
+    margin: 0 0 0 20;
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+#parte2, h4 {
+    color:rgb(0, 255, 13)
 }
 
 button:hover {
@@ -163,15 +184,24 @@ button:hover #sabermais {
     text-align: center;
 }
 
-.sobreaautora {
-    background-color: #98fc71;
-    color: #292929;
-    text-align: center;
-    margin: 0 0 0 0 ;
-    padding: 5%;
-    grid-template-columns: 50% auto;
+.parte3 {
+    background-color: #292929;
+    color: #ffffff;
     display: grid;
-    }
+    grid-auto-flow: column;
+    grid-template-columns: 50% 50%;
+}
+
+#autoraimg {
+    width: 50%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.sobreaautora {
+    text-align: center;
+    margin-top: 25px;
+}
 
 
 #afiliados {
