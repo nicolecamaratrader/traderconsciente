@@ -189,20 +189,22 @@ button:hover #sabermais {
     color: #ffffff;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 20px;
 }
 
 #autoraimg {
-    width: 50%;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    width: 60%;
+    text-align: center;
+    margin: 0 0 30 0;
+    padding: 20 0 0 10;
 }
 
 .sobreaautora {
     text-align: center;
     margin-top: 25px;
-    margin-left: 15px;
-    
+    margin-left: 30px;
+    color: rgb(0, 255, 13) ;
 }
 
 @media (max-width: 768px) {
