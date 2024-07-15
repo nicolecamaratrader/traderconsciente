@@ -201,6 +201,8 @@ button:hover #sabermais {
 .sobreaautora {
     text-align: center;
     margin-top: 25px;
+    margin-left: 15px;
+    
 }
 
 @media (max-width: 768px) {
