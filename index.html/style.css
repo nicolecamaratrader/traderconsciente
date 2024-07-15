@@ -66,10 +66,10 @@ a {
 }
 
 #coveronphone {
-    width: 78%;
-    margin: 5%;
+    width: 58%;
+    margin: 0%;
     margin-bottom: 20%;
-    margin-left: 5%;
+    margin-left: 15%;
     margin-right: 5%;
     border-radius: 5%;
     box-shadow: 10px 15px 20px rgba(0, 255, 13, 1); 
@@ -115,11 +115,12 @@ button {
     border-radius: 15px 15px;
 }
 
-#motivos{
-    color: #ff9900;
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+.parte2 {
+    background-color: #98fc71;
+    color: #292929;
+    text-align: center;
+    margin: 0 0 0 0 ;
+    padding: 5%;
 }
 
 button:hover {
