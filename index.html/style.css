@@ -184,6 +184,14 @@ button:hover #sabermais {
     text-align: center;
 }
 
+.parteX {
+    background-color: #292929;
+    color: rgb(104, 255, 112);
+    text-align: center;
+    margin: 20 0 20 0;
+    padding: 30 0 30 0;
+}
+
 .parte4 {
     background-color: #292929;
     color: rgb(104, 255, 112);
