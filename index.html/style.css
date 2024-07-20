@@ -151,7 +151,7 @@ h3 {
 }
 
 #parte2, h4 {
-    color:rgb(104, 255, 112);
+    color: rgb(104, 255, 112);
 }
 
 button:hover {
@@ -176,12 +176,16 @@ button:hover {
     text-align: center;
 }
 
-.parte3 {
+.parteB {
     background-color: #b2e67e;
     color: rgb(104, 255, 112);
     text-align: center;
     margin: 20 0 20 0;
     padding: 30 0 30 0;
+}
+
+#grayletter {
+    color: #292929;
 }
 
 .parte5 {
