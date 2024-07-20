@@ -116,7 +116,7 @@ button {
 
 .parte2 {
     background-color: #292929;
-    color: #ffffff;
+    color: rgb(104, 255, 112);
     text-align: center;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -141,7 +141,7 @@ h3 {
 }
 
 #parte2, h4 {
-    color:rgb(0, 255, 13)
+    color:rgb(104, 255, 112);
 }
 
 button:hover {
@@ -167,7 +167,7 @@ button:hover {
 }
 
 button:hover #sabermais {
-    background-color: #ff4242;
+    background-color: #ff9900;
     color: #ffffff ;
     transform: translateY(8px);
     box-shadow: 0px 15px 20px #292929;
@@ -186,7 +186,7 @@ button:hover #sabermais {
 
 .parte3 {
     background-color: #292929;
-    color: #ffffff;
+    color: rgb(104, 255, 112);
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 70% 30%;
@@ -204,7 +204,7 @@ button:hover #sabermais {
     text-align: center;
     margin-top: 25px;
     margin-left: 30px;
-    color: rgb(0, 255, 13) ;
+    color: rgb(118, 255, 125) ;
 }
 
 @media (max-width: 768px) {
