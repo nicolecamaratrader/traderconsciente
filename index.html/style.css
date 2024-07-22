@@ -48,17 +48,17 @@ a {
     color: rgb(0, 255, 13);
 }
 
-.parte1{
+.parteA{
     grid-template-columns: 60% 40%;
     display: grid;
     margin: 10 0 20 0;
     padding: 0 0 30 0;
 }
 
-.parte1, h1 {
+.parteA, h1 {
     color: rgba(0, 255, 13, 1);
 }
-.parte1, h2 {
+.parteA, h2 {
     color: #ff9900;
 }
 
@@ -123,7 +123,7 @@ button {
     border-radius: 15px 15px;
 }
 
-.parte2 {
+.parteC {
     background-color: #292929;
     color: rgb(104, 255, 112);
     text-align: center;
@@ -150,7 +150,7 @@ h3 {
     grid-template-columns: 50%;
 }
 
-#parte2, h4 {
+#parteC, h4 {
     color: rgb(104, 255, 112);
 }
 
@@ -188,7 +188,7 @@ button:hover {
     color: #292929;
 }
 
-.parte5 {
+.parteE {
     background-color: #292929;
     color: rgb(104, 255, 112);
     display: grid;
@@ -212,7 +212,7 @@ button:hover {
     padding: 20 0 20 0;
 }
 
-.parte4 {
+.parteD {
     background-color: #b2e67e;
     color: rgb(104, 255, 112);
     display: flex;
