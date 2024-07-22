@@ -31,14 +31,14 @@
                          para o sucesso no mercado financeiro!</h4>
         
                     <form id="form" action="https://api.sheetmonkey.io/form/i5bDfLJtUQq8PK4z3RnNnd" method="post">
-                        <input type="text" placeholder="Nome" name="Nome" required>
+                        <input id="nome" type="text" placeholder="Nome" name="Nome" required>
                         <input type="email" placeholder="Seu melhor e-mail" name="email" required>
                         <input type="number" placeholder="(DDD) + Telefone" name="telefone" required>
                         <input type="hidden" name="data" value="x-sheetmonkey-current-date-time"/>
                         <button id="submeter" type="submit" value="submeter">QUERO SER UM TRADER CONSCIENTE DE SUCESSO!</button>
                     </form>
-                    <h1 id="red1"> OFERTA POR TEMPO LIMITADO! <br></h1>
-                    <h1 id="red2"> De R$67 por apenas R$37! </h1>
+                    <h1 id="red1">OFERTA POR TEMPO LIMITADO!<br></h1>
+                    <h1 id="red2">De R$67 por apenas R$37!</h1>
             </div>
             <div id= "phonemockup">
                 <img onmouseenter="openebook()" onmouseleave="closeebook()" src="./imagens.png/coveronphone.png" id="coveronphone" alt="coverimg">
@@ -55,7 +55,7 @@
                     <h2>Não quer perder a grande oportunidade do momento; </h2><br>
                     <h2>Já perdeu dinheiro e quase desistiu ou quer descobrir bons métodos; </h2><br>
                     <h2>Está iniciando no mercado ou não tem muito capital! </h2><br>
-                    <button> DÊ O PRIMEIRO PASSO!</button>
+                    <button id="primeiropasso" onclick="scrollToForm()"> DÊ O PRIMEIRO PASSO!</button>
                </div>
            </div>         
     
@@ -83,7 +83,7 @@
                            em sua rotina de análises.</li><br>
                    </ul></p>
                    <div id="oferta">
-                    <button id="sabermais"> SABER MAIS SOBRE O GUIA! </button>        
+                    <button id="sabermais" onclick="scrollToForm()"> SABER MAIS SOBRE O GUIA! </button>        
                     </div>
                 </div>               
         </div>
@@ -96,12 +96,12 @@
                 <h2> Compra segura </h2><br>
                 <h2> Acesso Instantâneo por e-mail </h2><br>
                 <h2> Privacidade Protegida  </h2><br> 
-                <button> ADQUIRA JÁ! </button>
+                <button id="adquirir" onclick="scrollToForm()"> ADQUIRA JÁ! </button>
             </div>
         </div>
 
         <div class ="parteE">
-                <div class="sobreaautora">
+                <div class="sobreaautora">)
                     <h1>QUEM SOU EU E COMO POSSO TE AJUDAR...</h1><br>
                     <p> Olá, eu me chamo Nicole, começei minha jornada criptotrader em meados de Agosto de 2023;
                         sempre fui autodidata e busquei por independência, com uma afinidade especial por 
