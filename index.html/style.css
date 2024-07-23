@@ -66,6 +66,10 @@ a {
     color: #ff9900;
 }
 
+.fa-solid fa-dollar-sign {
+    color: rgba(0, 255, 13, 1);
+}
+
 .apresentacao{
     margin-top: 25px;
     padding: 0 0 0 0 ;
@@ -233,13 +237,14 @@ button:hover {
 
 @media (max-width: 768px) {
    
-    .apresentacao {
-        display: -moz-box;
-        align-self: auto;
-    }
 
     #form , phonemockup {
         max-width: 100%;
+    }
+
+    .apresentacao {
+        display: -moz-box;
+        align-self: auto;
     }
 
     #coveronphone {

@@ -21,3 +21,4 @@ function scrollToForm () {
     document.getElementById('adquirir').scrollIntoView ({bahevior:'smooth'});
     document.getElementById('nome').focus();
 }
+
