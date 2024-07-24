@@ -211,6 +211,7 @@ button:hover {
 
 #grayletter {
     color: #292929;
+    margin-bottom: 30;
 }
 
 .parteE {
@@ -253,18 +254,3 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-   
-
-    #form , phonemockup {
-        max-width: 100%;
-    }
-
-    .apresentacao {
-        display: -moz-box;
-        align-self: auto;
-    }
-
-    #coveronphone {
-        width: 100%;
-    }
-}
