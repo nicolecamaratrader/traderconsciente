@@ -31,16 +31,18 @@
     margin-left: 5%;
     margin-right: 5%;
     padding: 0;
-    color: rgb(0, 255, 13);
+    color: #b2e67e;
 }
 
 a{
     text-decoration: none;
+    color:  #b2e67e;
 }
 
 #menusuperior li {
     display: inline-block;
     margin-left: 20px;
+    color: #b2e67e;
 }
 
 #menusuperior {
@@ -48,7 +50,7 @@ a{
     margin-top: 8%;
 }
 
-a {
+#menusuperior ul a:hover {
     color: rgb(0, 255, 13);
 }
 
