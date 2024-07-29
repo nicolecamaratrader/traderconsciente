@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36183a91-fb55-4dbf-af8f-e6cc0f8ed209/deploy-status)](https://app.netlify.com/sites/guiatrader/deploys)
