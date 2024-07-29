@@ -90,15 +90,10 @@ h3 {
     color: #ff9900;
 }
 
-#red1 {
+.red {
     color:rgb(255, 0, 0);
     text-align: center;
 }
-
-#red2 {
-    color:rgb(255, 0, 0);
-    text-align: center;
-} 
 
 #coveronphone {
     width: 58%;
