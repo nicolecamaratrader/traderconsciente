@@ -19,7 +19,6 @@
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-    color: rgb(0, 255, 13);
     background-color: #292929;
     margin-left: 5%;
     margin-right: 5%;
@@ -260,5 +259,73 @@ button:hover {
     padding: 20 0 20 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    /*ParteA*/
+        .parteA {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #phonemockup {
+            order: -1; /* Move a imagem antes do texto */
+            width: 80%; /* Ajuste o tamanho da imagem conforme necessário */
+            margin: 20px 0;
+        }
+    
+        .apresentacao {
+            margin: 0 10px;
+            text-align: left;
+        }
+    
+        .apresentacao h1, .apresentacao h2, .apresentacao h4, #form, #red1, #red2 {
+            text-align: left;
+        }
+
+    /*ParteC*/
+        .parteC {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        #mockupestudando {
+            order: -1; 
+            width: 80%; 
+            margin: 20px 0;
+        }
+    
+        .parteC div:not(#mockupestudando) {
+            margin: 0 10px;
+            text-align: left;
+        }
+    
+        .parteC h4, .parteC h3, .parteC ul {
+            text-align: left;
+        }
+
+    /*ParteE*/
+    .parteE {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobreaautora {
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+
+    #autoraimg {
+        order: -1; 
+        width: 80%; 
+        margin: 20px 0;
+    }
+
+    .sobreaautora:first-of-type {
+        margin-top: 0;
+    }
 }
