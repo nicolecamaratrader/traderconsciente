@@ -1,10 +1,9 @@
 *{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+}
 
-    body {
-    color: rgb(0, 255, 13);
+body {
     background-color: #292929;
 }
       
@@ -24,24 +23,15 @@
     margin-right: 5%;
 }
 
-#menusuperior ul {
+#menusuperior ul li a {
     list-style-type: none;
-    margin: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 0;
+    margin: 8% 5% 0 20px;
     color: #b2e67e;
-}
-
-a{
     text-decoration: none;
-    color:  #b2e67e;
 }
 
 #menusuperior li {
     display: inline-block;
-    margin-left: 20px;
-    color: #b2e67e;
 }
 
 #menusuperior {
@@ -67,10 +57,6 @@ a{
 }
 .parteA, h2 {
     color: #ff9900;
-}
-
-.fa-solid fa-dollar-sign {
-    color: rgba(0, 255, 13, 1);
 }
 
 .quem {
