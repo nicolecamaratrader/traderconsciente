@@ -263,15 +263,15 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px; 
+        padding: 3% 3% 3% 3%; 
     }
 
     .parteA form, .parteC ul, .parteE .sobreaautora {
-        width: 100%;
+        width: 94%;
     }
 
     .parteA h1, .parteC h3, .parteE h1 {
-        font-size: 1.2em; 
+        font-size: 1.5em; 
         margin: 5px 0;
     }
 
