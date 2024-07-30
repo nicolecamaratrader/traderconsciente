@@ -43,6 +43,18 @@ body {
     color: rgb(0, 255, 13);
 }
 
+/*TODOS OS BOTÕES*/
+button:hover {
+    background-color: #ff9900;
+    color: #ffffff ;
+    transform: translateY(8px);
+    box-shadow: 0px 15px 20px #292929;
+    transition-duration: 0.5s;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
 /* PARTE A - GUIA, APRESENTAÇÃO, OFERTA E FORMULÁRIO  */
 
 .parteA{
@@ -59,12 +71,7 @@ body {
     color: #ff9900;
 }
 
-.quem {
-    color: #292929;
-}
-
 .apresentacao{
-    padding: 0 0 0 0 ;
     line-height: 1.3; 
     display: flexbox;
     flex-direction: column;
@@ -72,14 +79,11 @@ body {
     margin: 3% 5% 5% 5%;
 }
 
-h3 {
-    color: #ff9900;
-}
-
 .red {
     color:rgb(255, 0, 0);
     text-align: center;
 }
+
 
 #coveronphone {
     width: 58%;
@@ -88,29 +92,23 @@ h3 {
     box-shadow: 10px 15px 20px rgba(0, 255, 13, 1); 
     display: grid;
     grid-template-columns: auto;
-
 }
 
 #pageonphone {
     display: none;
     visibility: hidden;
-    margin-left: 5%;
-    margin-right: 15%;
 }
 
 #form {
-    margin-top: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 2% 5% 0% 5%;
 }
 
 input {
     width: 85%;
     height: 30px;
     background-color: azure;
-    margin: 5px;
     margin-left: 10px;
-    margin-top: 15px;
+    margin: 15px 0px 0px 15px ;
     border: rgb(0, 255, 13);
     border-radius: 15px 15px;
     padding-left: 20px;
@@ -119,21 +117,38 @@ input {
 button {
     background-color: rgb(0, 255, 13);
     color: #292929;
-    width: 85%;
-    height: 40px;
-    margin: 25px;
-    margin-top: 15px;
+    width: 90%;
+    height: 35px;
+    margin: 25px 0px 25px 5px;
     font-weight: bolder;
     cursor: pointer;
     border-radius: 15px 15px;
 }
 
-/* PARTE B - MOCKUP ESTUDANDO E CONTEÚDO */
+/* PARTE B - PARA QUEM E MOTIVOS + MOCKUP */
+
+.parteB {
+    background-color: #b2e67e;
+    color:#292929;
+    text-align: center;
+    margin-top: 5% 0% 5% 0%;
+    padding: 2% 10% 2% 10% ;
+}
+
+#grayletter {
+    color: #292929;
+    margin-bottom: 30;
+}
+
+.quem {
+    color: #292929;
+}
+
+/*PARTE C - ACESSO A */
 
 #mockupestudandoimg {
     width: 90%;
     margin: 0 0 0 20;
-    padding-top: 0;
     display: grid;
     grid-template-columns: 50%;
 } 
@@ -145,21 +160,9 @@ button {
     list-style-type: disc;
 }
 
-.parteB {
-    background-color: #b2e67e;
-    color: rgb(104, 255, 112);
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 2% 10% 2% 10% ;
+h3 {
+    color: #ff9900;
 }
-
-#grayletter {
-    color: #292929;
-    margin-bottom: 30;
-}
-
-/* PARTE C - GARANTIA IMAGEM, MOTIVOS E BOTÃO */
 
 .parteC {
     background-color: #292929;
@@ -170,48 +173,30 @@ button {
     margin: 4% 4% 4% 4%;
 }
 
-.garantiaitens li {
-    color: #292929;
-    list-style-type: none;
-    text-align: center;
-    display: inline;
-    padding: 20 20 ;
-}
-
-#parteC, h4 {
-    color: rgb(104, 255, 112);
-}
-
-button:hover {
-    background-color: #ff9900;
-    color: #ffffff ;
-    transform: translateY(8px);
-    box-shadow: 0px 15px 20px #292929;
-    transition-duration: 0.5s;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 /* PARTE D - GARANTIA E IMAGEM */
 
 .parteD {
     background-color: #b2e67e;
-    color: rgb(104, 255, 112);
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 2% 0 2% 0;
+    margin: 5% 0 5% 0;
     padding: 40 0 40 0;
 }
 
 #garantiaimg {
     width: 20%;
-    margin: 2% 2% 2% 2%;
+    margin: 3% 2% 3% 2%;
     padding: 20 50 50 50 ;
 }
 
-#adquirir {
-    margin-top: 2%;
+.garantiaitens li {
+    color: #292929;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    margin: 5% 0% 5% 0%;
+    padding: 20 20 ;
 }
 
 /* PARTE E - SOBRE A AUTORA E IMG PERFIL*/
@@ -225,13 +210,6 @@ button:hover {
     padding-bottom: 5%;
 }
 
-#autoraimg {
-    width: 60%;
-    text-align: center;
-    margin: 0 0 30 0;
-    padding: 20 0 0 10;
-}
-
 .sobreaautora {
     text-align: center;
     margin-top: 25px;
@@ -240,73 +218,13 @@ button:hover {
     padding: 20 0 20 0;
 }
 
+#autoraimg {
+    width: 60%;
+    text-align: center;
+    margin: 0 0 30 0;
+    padding: 20 0 0 10;
+}
+
 @media screen and (max-width: 768px) {
 
-    /*ParteA*/
-        .parteA {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        #phonemockup {
-            order: -1; /* Move a imagem antes do texto */
-            width: 80%; /* Ajuste o tamanho da imagem conforme necessário */
-            margin: 20px 0;
-        }
-    
-        .apresentacao {
-            margin: 0 10px;
-            text-align: left;
-        }
-    
-        .apresentacao h1, .apresentacao h2, .apresentacao h4, #form, #red1, #red2 {
-            text-align: left;
-        }
-
-    /*ParteC*/
-        .parteC {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        #mockupestudando {
-            order: -1; 
-            width: 80%; 
-            margin: 20px 0;
-        }
-    
-        .parteC div:not(#mockupestudando) {
-            margin: 0 10px;
-            text-align: left;
-        }
-    
-        .parteC h4, .parteC h3, .parteC ul {
-            text-align: left;
-        }
-
-    /*ParteE*/
-    .parteE {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sobreaautora {
-        text-align: center;
-        margin-top: 25px;
-        margin-left: 0;
-        padding: 20px 0;
-    }
-
-    #autoraimg {
-        order: -1; 
-        width: 80%; 
-        margin: 20px 0;
-    }
-
-    .sobreaautora:first-of-type {
-        margin-top: 0;
-    }
 }
