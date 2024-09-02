@@ -152,6 +152,52 @@ button {
 .quem, .abaquente {
     color: #292929;
 }
+/*PARTE EXTRA - ACESSO AO VIP - TEMPORÁRIA */
+.parteX {
+    background-color: #FF6600; 
+    color: #FFFFFF; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px #b2e67e; 
+    padding: 20px; 
+    margin: 30px 30px; 
+    position: relative; 
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+.parteX h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #b2e67e;
+}
+
+.parteX p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.vip-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* Adicione o estilo do ícone aqui */
+}
+
+.parteX.show {
+    opacity: 1; /* Mostra a div quando a classe 'show' é adicionada */
+}
+
+/* Animação de fade-in para a div quando o usuário rolar até ela */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.parteX {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
 
 /*PARTE C - ACESSO A */
 
