@@ -159,7 +159,7 @@ button {
     border-radius: 15px; 
     box-shadow: 0 4px 8px #b2e67e; 
     padding: 20px; 
-    margin: 30px 30px; 
+    margin: 50px 30px; 
     position: relative; 
     opacity: 0; 
     transition: opacity 1s ease-in-out; 
@@ -180,11 +180,11 @@ button {
     position: absolute;
     top: 20px;
     left: 20px;
-    /* Adicione o estilo do ícone aqui */
+    
 }
 
 .parteX.show {
-    opacity: 1; /* Mostra a div quando a classe 'show' é adicionada */
+    opacity: 1; 
 }
 
 /* Animação de fade-in para a div quando o usuário rolar até ela */
@@ -201,6 +201,7 @@ button {
     color: #b2e67e;
     text-align: center;
     size: 50px;
+    padding: 20px;
 }
 
 /*PARTE C - ACESSO A */
