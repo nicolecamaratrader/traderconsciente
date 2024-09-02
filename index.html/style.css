@@ -239,7 +239,7 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 5% 0 5% 0;
+    margin: 5% 0 0 0;
     padding: 40 0 40 0;
 }
 
@@ -270,11 +270,11 @@ h3 {
 }
 
 .sobreaautora {
-    text-align: center;
-    margin-top: 25px;
+    text-align: left;
+    margin-top: 30px;
     margin-left: 30px;
     color: rgb(118, 255, 125) ;
-    padding: 20 0 20 0;
+    padding: 20 0 10 0;
 }
 
 #autoraimg {
