@@ -196,8 +196,12 @@ button {
 .parteX {
     animation: fadeIn 1s ease-in-out;
 }
-
-
+/*CLASS DOR*/
+.dor h2 {
+    color: #b2e67e;
+    text-align: center;
+    size: 50px;
+}
 
 /*PARTE C - ACESSO A */
 
